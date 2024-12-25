@@ -15,11 +15,29 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <style>
+      .goog-te-gadget {
+   
+     color: #fff!important;
+      }
+      .goog-te-gadget span{
+        display: none;
+      }
+      .goog-te-gadget .goog-te-combo {
+   
+    margin-left: 10px!important;
+}
+    </style>
   </head>
   <body>
+    <div class="container-fluid">
+      <div class="donate">
+        <button class="donate-btn">Donate</button>
+        <div id="google_translate_element"></div>
+      </div>
     <!-- Navbar -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark text-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark text-dark p-0">
       <a class="navbar-brand d-flex align-items-center" href="#">
         <img
           src="images/WhatsApp Image 2024-10-13 at 6.45.27 PM.jpeg"
@@ -64,11 +82,11 @@
       </div>
     </nav>
 
-    <div class="container-fluid">
+ 
       <section>
         <h4 class="our-work">Our Work</h4>
         <div class="py-3">
-          <img src="images/Rectangle 22.png" alt="icon" />
+          <img src="images/Rectangle 22.png" alt="icon" class="wid"/>
           <span class="key-program"
             >Mauli Balak Aashram Orphanage for Boys:</span
           >
@@ -91,11 +109,11 @@
             <div class="carousel-inner">
               <div class="carousel-item work-slider active">
                 <img
-                  src="images/WhatsApp Image 2024-10-13 at 6.47.15 PM (3).jpeg"
+                  src="img/IMG_2436.JPG"
                   class="d-block w-100"
                   alt="our-work"
                 />
-                <div class="carousel-caption slide-left d-none d-md-block">
+                <div class="carousel-caption slide-left d-md-block">
                   <p class="work-details">
                     ●     We provide a nurturing environment for orphan boys
                     aged 6-18, focusing on their overall development and
@@ -109,7 +127,7 @@
                   class="d-block w-100"
                   alt="our-work"
                 />
-                <div class="carousel-caption slide-left d-none d-md-block">
+                <div class="carousel-caption slide-left d-md-block">
                   <p class="work-details">
                     ●     We provide a nurturing environment for orphan boys
                     aged 6-18, focusing on their overall development and
@@ -123,7 +141,7 @@
                   class="d-block w-100"
                   alt="our-work"
                 />
-                <div class="carousel-caption slide-left d-none d-md-block">
+                <div class="carousel-caption slide-left d-md-block">
                   <p class="work-details">
                     ●     We provide a nurturing environment for orphan boys
                     aged 6-18, focusing on their overall development and
@@ -151,7 +169,7 @@
 
       <section class="my-5">
         <div class="py-3">
-          <img src="images/Rectangle 22.png" alt="icon" />
+          <img src="images/Rectangle 22.png" alt="icon" class="wid" />
           <span class="key-program"
             >Matoshree Revamma Open Shelter for Girls:</span
           >
@@ -178,7 +196,7 @@
                   class="d-block w-100"
                   alt="img"
                 />
-                <div class="carousel-caption slide-left d-none d-md-block">
+                <div class="carousel-caption slide-left d-md-block">
                   <p class="work-details">
                     ●     Our shelter offers a safe haven for girls, providing
                     them with education, healthcare, and emotional support to
@@ -192,7 +210,7 @@
                   class="d-block w-100"
                   alt="img"
                 />
-                <div class="carousel-caption slide-left d-none d-md-block">
+                <div class="carousel-caption slide-left d-md-block">
                   <p class="work-details">
                     ●     Our shelter offers a safe haven for girls, providing
                     them with education, healthcare, and emotional support to
@@ -206,7 +224,7 @@
                   class="d-block w-100"
                   alt="img"
                 />
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block slide-left">
                   <p class="work-details">
                     ●     Our shelter offers a safe haven for girls, providing
                     them with education, healthcare, and emotional support to
@@ -234,7 +252,7 @@
 
       <section class="my-5">
         <div class="py-3">
-          <img src="images/Rectangle 22.png" alt="icon" />
+          <img src="images/Rectangle 22.png" alt="icon" class="wid" />
           <span class="key-program"
             >Krantijyoti Savitribai Phule Bhagirathi Bal Sangopan Yojana:</span
           >
@@ -278,6 +296,20 @@
         </p>
       </div>
     </div>
+    <!-- script -->
+
+    <script>
+      function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+      pageLanguage: 'en',
+      autoDisplay: 'true',
+      includedLanguages:'mr,en', // <- remove this line to show all language
+      layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+      }, 'google_translate_element');
+      }
+     </script>
+     
+    <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <!-- script -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
