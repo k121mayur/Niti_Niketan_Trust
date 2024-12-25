@@ -15,11 +15,32 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <style>
+      .goog-te-gadget {
+   
+     color: #fff!important;
+      }
+      .goog-te-gadget span{
+        display: none;
+      }
+      .goog-te-gadget .goog-te-combo {
+   
+    margin-left: 10px!important;
+}
+    </style>
   </head>
   <body>
     <!-- Navbar -->
+   
+    
+    <div class="container-fluid">
+      <div class="donate">
+        <button class="donate-btn">Donate</button>
+        <div id="google_translate_element"></div>
+      </div>
+      
 
-    <nav class="navbar navbar-expand-lg navbar-dark text-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark text-dark p-0">
       <a class="navbar-brand d-flex align-items-center" href="#">
         <img
           src="images/WhatsApp Image 2024-10-13 at 6.45.27 PM.jpeg"
@@ -29,7 +50,7 @@
         <span class="head-text text-dark"
           >Niti Niketan
           <br />
-          <span class="trust">Trust</span></span
+          <span class="trust text-dark">Trust</span></span
         >
       </a>
       <button
@@ -66,23 +87,23 @@
     </nav>
 
     <!-- Hero-section -->
-    <div class="container-fluid">
+   
       <div
         id="carouselExampleInterval"
         class="carousel slide"
         data-ride="carousel"
       >
-        <div class="carousel-inner" style="background-color: #e7e7e7;padding: 50px;">
-          <div class="carousel-item slide-img active" data-interval="10000">
+        <div class="carousel-inner" >
+          <div class="carousel-item slide-img active" data-interval="1000">
             <div class="row">
-              <div class="col-lg-5">
+              <div class="col-lg-12 slide-img">
                 <img
-                  src="images/WhatsApp Image 2024-10-13 at 6.47.15 PM.jpeg"
+                  src="img/IMG_2435.JPG"
                   class="d-block w-100"
                   alt="img"
                 />
-              </div>
-              <div class="col-lg-6 p-50">
+            
+              <div class="content">
                 <p class="slide-para">
                   Empowering Orphan Boys for a Brighter Future. We provide
                   comprehensive care to orphan boys aged 6-18, offering them a
@@ -93,16 +114,17 @@
               </div>
             </div>
           </div>
+        </div>
           <div class="carousel-item slide-img" data-interval="2000">
             <div class="row">
-              <div class="col-lg-5">
+              <div class="col-lg-12">
                 <img
-                  src="images/WhatsApp Image 2024-10-13 at 6.47.17 PM.jpeg"
+                  src="img/IMG_2384.JPG"
                   class="d-block w-100"
                   alt="img"
                 />
-              </div>
-              <div class="col-lg-6 p-50">
+              
+              <div class="content">
                 <p class="slide-para">
                   Empowering Orphan Boys for a Brighter Future. We provide
                   comprehensive care to orphan boys aged 6-18, offering them a
@@ -113,16 +135,17 @@
               </div>
             </div>
           </div>
+        </div>
           <div class="carousel-item slide-img">
             <div class="row">
-              <div class="col-lg-5">
+              <div class="col-lg-12">
                 <img
-                  src="images/WhatsApp Image 2024-10-13 at 6.47.18 PM.jpeg"
+                  src="img/IMG_2360.JPG"
                   class="d-block w-100"
                   alt="img"
                 />
-              </div>
-              <div class="col-lg-6 p-50">
+              
+              <div class="content">
                 <p class="slide-para">
                   Empowering Orphan Boys for a Brighter Future. We provide
                   comprehensive care to orphan boys aged 6-18, offering them a
@@ -133,6 +156,7 @@
               </div>
             </div>
           </div>
+        </div>
         </div>
         <a
           class="carousel-control-prev"
@@ -164,20 +188,20 @@
         <div class="row justify-content-center">
           <div class="col-lg-3">
             <div class="founder-img">
-              <img src="images/WhatsApp Image 2024-10-13 at 6.47.15 PM (3).jpeg" alt="founder-img" />
+              <img src="Founders/IMG_2345.JPG" alt="founder-img" />
             </div>
           </div>
           <div class="col-lg-8 founder p-50">
-            <h4>Mr. Baswaraj Dyade</h4>
-            <p>co-founded Niti Niketan Multipurpose Trust</p>
+            <h4 class="mb-0">Mr. Baswaraj Dyade</h4>
+            <p class="fs-14">co-founded Niti Niketan Multipurpose Trust</p>
             <div class="founder-info  py-2">
               <p class="pb-0 mb-0">
-                <span class="pl-50"> Mr. Baswaraj Dyade,</span> a dedicated high school teacher with a
+                <span> Mr. Baswaraj Dyade,</span> a dedicated high school teacher with a
                 degree in Mathematics, co-founded Niti Niketan Multipurpose
                 Trust in 1995. With a deep passion for education and social
                 service, Mr. Baswaraj used his role as an educator to inspire
                 and support his community.</p>
-                <p><span class="pl-50"
+                <p><span
                   >Despite the traditional challenges faced by the couple,</span> Mr.
                   Baswaraj and his wife committed to dedicating a significant
                   portion of their income to helping those in need. His vision
@@ -189,11 +213,11 @@
             </div>
           </div>
           <div class="col-lg-8 founder p-50">
-            <h4 class="text-right">Mrs. Godawari Dyade</h4>
-            <p class="text-right">co-founded Niti Niketan Multipurpose Trust</p>
+            <h4 class="text-r mb-0">Mrs. Godawari Dyade</h4>
+            <p class="text-r fs-14">co-founded Niti Niketan Multipurpose Trust</p>
             <div class="founder-info">
               <p>
-                <span class="pl-50">Mrs. Godawari Dyade,</span
+                <span>Mrs. Godawari Dyade,</span
                   > the co-founder of Niti Niketan Multipurpose
                 Trust, has always been deeply passionate about education.
                 Despite only being able to continue her formal education up to
@@ -201,7 +225,7 @@
                 teaching remained unwavering. Her early experiences and
                 challenges fueled her commitment to spreading the importance of
                 education within her community.
-                <span class="pl-50">Alongside Mr. Baswaraj, </span
+                <span>Alongside Mr. Baswaraj, </span
                   > she worked tirelessly to turn their
                   vision into reality, helping to register and grow Niti
                   Niketan. Her efforts have significantly contributed to the
@@ -212,7 +236,7 @@
           </div>
           <div class="col-lg-3">
             <div class="founder-img">
-              <img src="images/WhatsApp Image 2024-10-13 at 6.47.15 PM (3).jpeg" alt="founder-img" />
+              <img src="Founders/IMG_2444.JPG" alt="founder-img" />
             </div>
           </div>
         </div>
@@ -295,6 +319,19 @@
 
     <!-- script -->
 
+    <script>
+      function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+      pageLanguage: 'en',
+      autoDisplay: 'true',
+      includedLanguages:'mr,en', // <- remove this line to show all language
+      layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+      }, 'google_translate_element');
+      }
+     </script>
+     
+    <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+      
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
