@@ -15,11 +15,29 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <style>
+      .goog-te-gadget {
+   
+     color: #fff!important;
+      }
+      .goog-te-gadget span{
+        display: none;
+      }
+      .goog-te-gadget .goog-te-combo {
+   
+    margin-left: 10px!important;
+}
+    </style>
   </head>
   <body>
     <!-- Navbar -->
+    <div class="container-fluid">
+      <div class="donate">
+        <button class="donate-btn">Donate</button>
+        <div id="google_translate_element"></div>
+      </div>
 
-    <nav class="navbar navbar-expand-lg navbar-dark text-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark text-dark p-0">
       <a class="navbar-brand d-flex align-items-center" href="#">
         <img
           src="images/WhatsApp Image 2024-10-13 at 6.45.27 PM.jpeg"
@@ -65,14 +83,14 @@
     </nav>
 
     <!-- about us -->
-    <div class="container-fluid">
+
       <section>
         <h4 class="text-center about-s">About Us</h4>
         <div class="row justify-content-center">
           <div class="col-lg-12">
             <div class="group-photo">
               <img
-                src="images/WhatsApp Image 2024-10-13 at 6.47.15 PM (3).jpeg"
+                src="img/IMG_2363.JPG"
                 alt="group-photo"
                 class="group-img"
               />
@@ -137,7 +155,7 @@
             <div class="carousel-inner">
               <div class="carousel-item about-slider active">
                 <img
-                  src="images/WhatsApp Image 2024-10-13 at 6.47.16 PM (1).jpeg"
+                  src="img/IMG_2425.JPG"
                   class="d-block w-100"
                   alt="img"
                 />
@@ -151,7 +169,7 @@
               </div>
               <div class="carousel-item about-slider">
                 <img
-                  src="images/WhatsApp Image 2024-10-13 at 6.47.16 PM (2).jpeg"
+                  src="img/IMG_2353.JPG"
                   class="d-block w-100"
                   alt="img"
                 />
@@ -165,7 +183,7 @@
               </div>
               <div class="carousel-item about-slider">
                 <img
-                  src="images/WhatsApp Image 2024-10-13 at 6.47.15 PM (3).jpeg"
+                  src="img/IMG_2383.JPG"
                   class="d-block w-100"
                   alt="img"
                 />
@@ -275,7 +293,7 @@
         </section>
       </div>
       <!-- values -->
-      <section class="my-5 value">
+      <section class="my-5 value p-30">
         <div class="our-values">
           <h5>Values</h5>
           <div class="value-list py-3">
@@ -340,6 +358,20 @@
         </p>
       </div>
     </div>
+     <!-- script -->
+
+     <script>
+      function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+      pageLanguage: 'en',
+      autoDisplay: 'true',
+      includedLanguages:'mr,en', // <- remove this line to show all language
+      layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+      }, 'google_translate_element');
+      }
+     </script>
+     
+    <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <!-- script -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
