@@ -136,7 +136,7 @@
 .award-sec {
   background: #ffd636;
   border-radius: 20px;
-  padding: 70px 0;
+  padding: 50px 0;
 }
 .awards {
   position: relative;
@@ -180,7 +180,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
   animation: scrolling 20s linear infinite;
 
 }
@@ -188,17 +188,17 @@
 @keyframes scrolling {
 
   0% {
-      transform: translateX(80%);
+      transform: translateX(90%);
   }
 
   100% {
-      transform: translateX(-20%);
+      transform: translateX(-10%);
   }
 }
 
 .slider-items img {
-  width: 12%;
-  margin: 20px;
+  width: 15%;
+  margin: 10px;
 
 }
 .partner img{
@@ -485,16 +485,16 @@
     padding: 0 20px;
   }
   .award h4 {
-    font-size: 20px;
-    padding: 2px 40px;
-    line-height: 30px;
+    font-size: 18px;
+    padding: 2px 30px;
+    line-height: 25px;
   }
   h4{
     font-size: 20px;
   }
   .award {
     left: -20px;
-    top:-45px;
+    top:-40px;
   }
   .partner-head {
     font-size: 20px;
@@ -616,4 +616,5 @@
   .group-img{
     height: 350px;
   }
+ 
 }
