@@ -1,3 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,900;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .bg-clr {
   background: #094e61;
   padding: 0 70px;
@@ -9,14 +16,26 @@
 }
 .donate {
   padding-top: 10px;
-  display: flex;
-  justify-content: end;
+ text-align: right;
 }
+.translate{
+  background: #094e61;
+  color: #fff;
+  text-decoration: none;
+  padding: 3px 20px;
+  border-radius: 3px;
+  font-size: 15px;
+}
+.translate:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
 .donate-btn {
   border: none;
-  padding: 0px 10px;
+  padding: 2px 15px;
   background: #efc85d;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
   color: #1f1f1f;
   border-radius: 3px;
@@ -58,10 +77,10 @@
   font-size: 25px;
   font-weight: 700;
   line-height: 1.5rem;
-  display: grid;
+ 
 }
 .trust {
- 
+  display: block;
   font-size: 16px;
   font-weight: 600;
   text-align: center;
@@ -122,9 +141,9 @@
 }
 .partner-head {
   color: #102c57;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
-  text-transform: uppercase;
+  
 }
 
 .partner {
@@ -148,14 +167,18 @@
 }
 .award h4 {
   background: #094e61;
-  font-weight: 500;
-  font-size: 30px;
+  font-weight: 700;
+  font-size: 25px;
   line-height: 39px;
   text-align: center;
   padding: 2px 70px;
   color: #fff;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
+}
+.map h4{
+  font-size: 25px;
+    font-weight: 700;
 }
 .slider-sec {
   display: grid;
@@ -206,7 +229,7 @@
     height: 150px;
 }
 .contact-head {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   text-align: center;
 }
@@ -216,14 +239,17 @@
 .address h4{
   color: #102c57;
   font-weight: 600;
+  font-size: 20px;
 }
 .location h4{
   color: #102c57;
   font-weight: 600;
+  font-size: 20px;
 }
 .contact-us h4{
   color: #102c57;
   font-weight: 600;
+  font-size: 20px;
 }
 .contact-us a{
   color: #000;
@@ -233,7 +259,7 @@
 
 }
 .about-s {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
 }
 .group-img {
@@ -282,6 +308,7 @@
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   font-size: 25px;
+  font-weight: 700;
   margin: auto;
 }
 .our-story .para p {
@@ -303,12 +330,12 @@
 .vision::before {
   content: "";
   position: absolute;
-  left: -110px;
+  left: -105px;
 
   top: 10%;
   width: 150px;
   background: #1e7a67;
-  height: 40px;
+  height: 35px;
 }
 .pl-50 {
   padding-left: 50px;
@@ -332,12 +359,12 @@
 .mission ::before {
   content: "";
   position: absolute;
-  right: -100px;
+  right: -104px;
 
   top: 10%;
   width: 150px;
   background: #1e7a67;
-  height: 40px;
+  height: 35px;
 }
 .mission h5 {
   font-size: 25px;
@@ -348,12 +375,16 @@
   text-align: justify;
   font-size: 16px;
 }
+.font-fam{
+  font-family:  Poppins, serif;
+  font-size: 15px;
+}
 /* .carousel-item img {
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
 } */
 .our-work {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
   color: #102c57;
   text-align: center;
@@ -385,6 +416,7 @@
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   font-size: 25px;
+  font-weight: 700;
   margin: auto;
 }
 .value-list ul li {
@@ -429,6 +461,9 @@
   width: 868px;
   color: #fff;
 }
+.display-n{
+  display: none;
+}
 
 @media screen and (max-width: 564px) {
   .mob-btn {
@@ -462,9 +497,12 @@
     font-size: 13px;
     padding: 0;
   }
+  .bg-founder{
+    font-size: 20px;
+  }
   .founder h4 {
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
   }
   .founder .fs-14 {
     text-align: center;
@@ -473,7 +511,12 @@
     text-align: center;
   }
   
-  
+  .display-n{
+    display: block;
+  }
+  .display-b{
+    display: none;
+  }
   .p-50 {
     padding: 20px;
   }
@@ -485,12 +528,26 @@
     padding: 0 20px;
   }
   .award h4 {
-    font-size: 18px;
+    font-size: 20px;
     padding: 2px 30px;
     line-height: 25px;
   }
-  h4{
+  .contact-head{
     font-size: 20px;
+  }
+  .address h4{
+    font-size: 18px;
+  }
+  .location h4{
+    font-size: 18px;
+  }
+  .contact-us h4{
+    font-size: 18px;
+  }
+  .map h4{
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
   }
   .award {
     left: -20px;
@@ -503,6 +560,7 @@
     padding: 0 30px;
     width: 100%;
     font-size: 13px;
+    text-align: center;
 }
 .contact-us a{
   font-size: 14px;
@@ -615,6 +673,21 @@
   }
   .group-img{
     height: 350px;
+  }
+  .bg-clr{
+    padding: 0 10px;
+  }
+  .head-text {
+    font-size: 16px;
+   
+   
+   
+  }
+  .trust {
+    display: inline;
+    font-size: 16px;
+    font-weight: 700;
+    
   }
  
 }
