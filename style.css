@@ -510,7 +510,9 @@
   .founder .text-r {
     text-align: center;
   }
-  
+  .founder-img{
+    margin: 20px;
+  }
   .display-n{
     display: block;
   }
